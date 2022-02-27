@@ -1,0 +1,11 @@
+{
+  "name": "simple-micro-app",
+  "version": "0.0.1",
+  "devDependencies": {
+    "@osdoc-dev/avenger-cli": "^0.2.4"
+  },
+  "scripts": {
+    "build:watch": "avenger build --watch"
+  },
+  "module": "./dist/index.esm.js"
+}
